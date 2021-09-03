@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.nav ul{
+    margin: 0;
+    padding:0;
+    overflow: hidden;
+    background-color: #082032;
+    list-style-type: none;
+
+}
+
+.nav li{
+    float: left;
+    
+}
+
+.nav li a{
+    display: block;
+    padding: 10px 0px 10px 100px;
+    font-family: 'Besley', serif;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.nav li a:hover{
+    text-decoration: none;
+}
+
+.questHtml 
+{
+ color: black;
+}
+
+.kvadrat{
+    margin: 40px 0px 0px 120px;
+    width: 320px;
+    height: 320px;
+    background-color: grey;
+    box-shadow: 0 12px 10px 0 rgba(0,0,0, .5);
+    float: left;
+}
+
+.ulone li{
+    padding: 0px 0px 0px 0px;
+    list-style-type: "⮕";
+    margin:20px;
+    list-style-position: inside;
+    font-family:'Besley', serif;
+    font-size: 1.5rem;
+}
+
+.tagone{
+    text-align: center;
+    font-family:'Besley', serif;
+    font-size: 20px;
+}
