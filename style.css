@@ -3,6 +3,7 @@
     margin: 0;
 }
 
+
 .nav ul{
     margin: 0;
     padding:0;
@@ -28,6 +29,11 @@
 
 .nav li a:hover{
     text-decoration: none;
+    color: red;
+    animation-name: spin;
+    animation-duration:700ms;
+    animation-iteration-count: inherit;
+    width: 100%;
 }
 
 .questHtml 
@@ -58,3 +64,162 @@
     font-family:'Besley', serif;
     font-size: 20px;
 }
+
+.grid-container{
+  display: grid ;
+  grid-template-columns: auto auto auto auto auto auto;
+  background-color: none;
+  padding: 2px
+
+}
+
+.grid-item1{
+   
+    padding:10px;
+    font-size: 20px;
+    text-align: center;
+    color:red;
+}
+
+.grid-item2{
+   
+    padding:10px;
+    font-size: 20px;
+    text-align: center;
+    color: orange;
+}
+
+.grid-item2-2{
+   
+    padding: 0px 40px 0px 0px;
+     font-size: 20px;
+     text-align: center;
+     color: orangered;
+ }
+ 
+
+.grid-item2-2-1{
+   
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    color: orangered;
+}
+
+
+.grid-item3{
+   
+    padding:10px;
+    font-size: 20px;
+    text-align: center;
+    color: green;
+}
+
+
+.grid-item4{
+    
+    padding:10px;
+    font-size: 20px;
+    text-align: center;
+    color: turquoise;
+}
+
+
+.grid-item5{
+   
+    padding:10px;
+    font-size: 1rem;
+    text-align: center;
+    color: blue;
+}
+
+.center{
+    text-align: center; 
+    padding-top: 50px;
+   
+}
+
+.centerimageone{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.answerHtml{
+    margin-bottom: 500px;
+    text-align: center;
+    vertical-align:middle;
+    width: 100%;
+}
+
+.answercenter{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+
+}
+
+.answertextone{
+font-size: 1rem;
+ word-break: keep-all;
+}
+
+.httpimg{
+    text-align: center;
+    width: 100%;
+}
+
+.tcpimg{
+    padding-top: 50px;
+    text-align: center;
+    width: 100%;
+}
+
+.ipimg{
+    padding-top: 10px;
+   padding-left:30px;
+    width: 80%;
+}
+
+#element{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2.5rem;
+}
+
+#elementtwo{
+ font-size: 1rem;
+ word-break: keep-all;
+ font-family: 'Times New Roman', Times, serif;
+}
+
+#center{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+}
+
+
+
+@keyframes spin {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+    
+}
+
+
+@media only screen and ( max-width: 1680px) {
+    .answerHtml{
+       margin-left: 100px;
+       text-align: center;
+       vertical-align: center;
+        
+    }
+    .secone{
+        margin-left: 100px;
+    }
+   
+  }
