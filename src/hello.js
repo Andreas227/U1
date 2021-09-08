@@ -19,4 +19,6 @@
  */
 export function sayHello () {
   // TODO: Write your code here!
+  const wordone = 'Hello, World!'
+  return wordone
 }
