@@ -50,6 +50,15 @@
     float: left;
 }
 
+.kvadrat2{
+    margin: 40px 0px 0px 120px;
+    width: 320px;
+    height: 100%;
+    background-color: grey;
+    box-shadow: 0 12px 10px 0 rgba(0,0,0, .5);
+    margin-left: 480px;
+}
+
 .ulone li{
     padding: 0px 0px 0px 0px;
     list-style-type: "⮕";
@@ -156,10 +165,7 @@ h3{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.5rem;
 }
-/* Användning av en entitet */
-h3:after {
-    content: ' \0021';
-}
+
 
 .answertextone{
 font-size: 1rem;

@@ -1,0 +1,17 @@
+<div class="kvadrat">
+    <h1 class="tagone">img tag <i class='fas fa-file-image'></i></h1>
+<ul class="ulone">
+<li>alt</li>
+<li>src</li>
+<li>loading</li>
+</ul>
+</div>
+<div class="kvadrat">
+    <h1 class="tagone">ol tag <i class='fas fa-file-alt'></i></h1>
+<ul class="ulone">
+<li>reversed</li>
+<li>start</li>
+<li>type</li>
+</ul>
+</div>
+ 
