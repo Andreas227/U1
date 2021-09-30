@@ -194,7 +194,11 @@ font-size: 1rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 2.5rem;
 }
-
+.elementtwo{
+    font-size: 1rem;
+ word-break: keep-all;
+ font-family: 'Times New Roman', Times, serif;
+}
 #elementtwo{
  font-size: 1rem;
  word-break: keep-all;
